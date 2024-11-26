@@ -33,7 +33,7 @@ const courses = [
     title: "Rule of Law",
     category: "Law",
     description: "Understand the foundations of legal systems.",
-    price: "$100",
+    price: "$400",
     image: "/book.jpeg",
   },
   {
@@ -97,7 +97,6 @@ const Courses = () => {
           </div>
         ))}
       </div>
-
       <div className="text-center mt-10">
         <button className="px-6 py-2 border border-gray-400 text-black rounded-lg hover:bg-gray-100 transition duration-300 ease-in-out">
           View All Courses
